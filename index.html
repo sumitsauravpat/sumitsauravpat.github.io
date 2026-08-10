@@ -9,80 +9,90 @@
 </head>
 <body>
 
+<div class="hero">
+  <div class="wrap">
+    <nav class="top">
+      <div class="brand">Sumit Saurav</div>
+      <div class="links">
+        <a href="#impact">Impact</a>
+        <a href="#experience">Experience</a>
+        <a href="#building">Now Building</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <div class="badge">Open to Principal / Staff AI Evaluation Engineering roles</div>
+    <h1>I build AI quality systems —<br>not just test suites.</h1>
+    <div class="role">QE Architect · 15+ Years · AI Quality Engineering</div>
+    <p class="lede">
+      14 years in QE, the last 3 focused on AI-augmented testing, agentic
+      workflows, and automation architecture across a 12+ team MFE platform
+      at TELUS Digital.
+    </p>
+    <a class="btn primary" href="#impact">See what I've shipped →</a>
+    <a class="btn ghost" href="#contact">Get in touch</a>
+  </div>
+</div>
+
 <div class="wrap">
 
-  <header class="top">
-    <div>
-      <h1>Sumit Saurav</h1>
-      <div class="role">QE Architect · 15+ Years · AI Quality Engineering</div>
-      <p class="summary">
-        I build AI quality systems — not just test suites. 14 years in QE,
-        the last 3 focused on AI-augmented testing, agentic workflows, and
-        automation architecture across a 12+ team MFE platform at TELUS Digital.
-      </p>
-      <div class="status-line">Open to Principal / Staff AI Evaluation Engineering roles · Remote / Canada</div>
-    </div>
-    <nav>
-      <a href="#impact">Impact</a>
-      <a href="#experience">Experience</a>
-      <a href="#building">Now Building</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <section id="impact" class="bordered">
+    <div class="eyebrow">Shipped in Production</div>
+    <h2>Three AI tools, real usage, real numbers</h2>
 
-  <section id="impact">
-    <h2>Shipped in Production</h2>
+    <div class="card-grid">
+      <div class="impact-card">
+        <div>
+          <div class="metric">~65%</div>
+          <div class="metric-label">manual regression effort reduced</div>
+        </div>
+        <div>
+          <h3>4-Agent AI Orchestration System</h3>
+          <p>
+            AI agents handling requirements analysis, automated test
+            generation, peer code review, and CI/CD failure diagnosis for
+            non-deterministic outputs — also improved release velocity ~40%.
+          </p>
+        </div>
+      </div>
 
-    <div class="impact-item">
-      <div>
-        <div class="metric">~65%</div>
-        <div class="metric-label">manual regression effort reduced</div>
+      <div class="impact-card">
+        <div>
+          <div class="metric">Mins</div>
+          <div class="metric-label">not hours, per test</div>
+        </div>
+        <div>
+          <h3>Reflect AI Kit</h3>
+          <p>
+            MCP-based agentic test automation integrating SmartBear Reflect
+            with Claude Code — engineers generate working E2E regression
+            tests from plain-English prompts. Includes an org-wide prompt
+            toolkit, per-product templates, and governance patterns for safe
+            AI-assisted test authoring.
+          </p>
+        </div>
       </div>
-      <div>
-        <h3>4-Agent AI Orchestration System</h3>
-        <p>
-          AI agents handling requirements analysis, automated test
-          generation, peer code review, and CI/CD failure diagnosis for
-          non-deterministic outputs — also improved release velocity ~40%.
-        </p>
-      </div>
-    </div>
 
-    <div class="impact-item">
-      <div>
-        <div class="metric">Mins</div>
-        <div class="metric-label">not hours, per test</div>
-      </div>
-      <div>
-        <h3>Reflect AI Kit</h3>
-        <p>
-          MCP-based agentic test automation integrating SmartBear Reflect
-          with Claude Code — engineers generate working E2E regression
-          tests from plain-English prompts. Includes an org-wide prompt
-          toolkit, per-product templates, and governance patterns for safe
-          AI-assisted test authoring.
-        </p>
-      </div>
-    </div>
-
-    <div class="impact-item">
-      <div>
-        <div class="metric">12+</div>
-        <div class="metric-label">QA engineers using it daily</div>
-      </div>
-      <div>
-        <h3>QACypress</h3>
-        <p>
-          A Slack bot (Slack App → n8n → Cypress Cloud API) that
-          auto-compares any two CI runs and surfaces only new regressions —
-          filtering out known/unchanged failures, fully automated, zero
-          manual intervention.
-        </p>
+      <div class="impact-card">
+        <div>
+          <div class="metric">12+</div>
+          <div class="metric-label">QA engineers using it daily</div>
+        </div>
+        <div>
+          <h3>QACypress</h3>
+          <p>
+            A Slack bot (Slack App → n8n → Cypress Cloud API) that
+            auto-compares any two CI runs and surfaces only new
+            regressions — filtering out known/unchanged failures, fully
+            automated, zero manual intervention.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="experience">
+  <section id="experience" class="bordered">
+    <div class="eyebrow">Career</div>
     <h2>Experience</h2>
 
     <div class="timeline-item">
@@ -128,8 +138,9 @@
     </div>
   </section>
 
-  <section id="building">
-    <h2>Now Building in Public</h2>
+  <section id="building" class="bordered">
+    <div class="eyebrow">Building in Public</div>
+    <h2>Now Building</h2>
     <div class="building-card">
       <div class="status">In development</div>
       <h3>cypress-ai-eval</h3>
@@ -144,17 +155,19 @@
     </div>
   </section>
 
-  <section>
+  <section class="bordered">
+    <div class="eyebrow">Toolbox</div>
     <h2>Stack</h2>
-    <div class="stack-list">
-      JavaScript · Cypress · WebdriverIO · Python<br>
-      GitHub Actions · n8n · MCP · Claude Code<br>
-      Java · Karate · ReadyAPI · AWS · JIRA<br>
-      LLM-as-Judge · DeepEval · RAGAS
+    <div class="stack-grid">
+      <span>JavaScript</span><span>Cypress</span><span>WebdriverIO</span><span>Python</span>
+      <span>GitHub Actions</span><span>n8n</span><span>MCP</span><span>Claude Code</span>
+      <span>Java</span><span>Karate</span><span>ReadyAPI</span><span>AWS</span><span>JIRA</span>
+      <span>LLM-as-Judge</span><span>DeepEval</span><span>RAGAS</span>
     </div>
   </section>
 
-  <section id="contact" style="border-bottom:none;">
+  <section id="contact">
+    <div class="eyebrow">Reach Out</div>
     <h2>Get in Touch</h2>
     <p>
       Email: <a href="mailto:sumitsauravpat@gmail.com">sumitsauravpat@gmail.com</a><br>
@@ -163,10 +176,8 @@
     </p>
   </section>
 
-  <footer>
-    © 2026 Sumit Saurav
-  </footer>
-
+  <footer>© 2026 Sumit Saurav</footer>
 </div>
+
 </body>
 </html>
