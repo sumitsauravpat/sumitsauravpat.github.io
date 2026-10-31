@@ -4,175 +4,229 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Sumit Saurav — QE Architect · AI Quality Engineering</title>
-<meta name="description" content="QE Architect, 15+ years, now building AI evaluation systems. Shipped a 4-agent AI orchestration system, an MCP-based test generation framework, and a CI regression bot in production.">
-<link rel="stylesheet" href="style.css">
+<meta name="description" content="QE Architect, 15+ years, now building AI quality systems. Shipped a 4-agent AI orchestration system, an MCP-based test generation framework, and a CI regression bot — all in production.">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%231F4D3A'/%3E%3Ctext x='32' y='42' font-family='Arial,sans-serif' font-size='26' font-weight='700' fill='white' text-anchor='middle'%3ESS%3C/text%3E%3C/svg%3E">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Sumit Saurav — QE Architect · AI Quality Engineering">
+<meta property="og:description" content="15+ years in Quality Engineering, now building AI quality systems. 4-agent AI orchestration in production, ~65% manual regression effort reduced.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Sumit Saurav — QE Architect · AI Quality Engineering">
+<meta name="twitter:description" content="15+ years in Quality Engineering, now building AI quality systems. 4-agent AI orchestration in production, ~65% manual regression effort reduced.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=3">
+
+<!-- Vercel Web Analytics — activates once "Web Analytics" is turned on in the Vercel project dashboard -->
+<script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
 
-<div class="wrap">
-
-  <nav class="top">
-    <div class="brand">Sumit Saurav</div>
-    <div class="links">
-      <a href="#impact">Impact</a>
-      <a href="#experience">Experience</a>
-      <a href="#building">Now Building</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
-
-  <div class="hero">
-    <h1>I build AI quality systems —<br>not just test suites.</h1>
-    <div class="role">QE Architect · 15+ Years · AI Quality Engineering</div>
-    <p class="lede">
-      15+ years in QE, the last 3 focused on AI-augmented testing, agentic
-      workflows, and automation architecture across a 12+ team MFE platform
-      at TELUS Digital.
-    </p>
-    <a class="btn primary" href="#impact">See what I've shipped →</a>
-    <a class="btn ghost" href="#contact">Get in touch</a>
+<header class="topbar">
+  <div class="brand">Sumit Saurav</div>
+  <div class="top-links">
+    <a href="https://www.linkedin.com/in/sumit-saurav120" target="_blank" rel="noopener">🔗 LinkedIn</a>
+    <a href="https://github.com/sumitsauravpat" target="_blank" rel="noopener">🔗 GitHub</a>
+    <a href="mailto:sumitsauravpat@gmail.com">✉️ Email</a>
+    <a href="resume.pdf" download class="resume">⬇ Resume</a>
   </div>
+</header>
 
-  <section id="impact">
-    <div class="eyebrow">Shipped in Production</div>
-    <h2>Three AI tools, real usage, real numbers</h2>
-    <div class="card-grid">
-      <div class="impact-card">
-        <div>
-          <div class="metric">~65%</div>
-          <div class="metric-label">manual regression effort reduced</div>
-        </div>
-        <div>
-          <h3>4-Agent AI Orchestration System</h3>
-          <p>
-            AI agents handling requirements analysis, automated test
-            generation, peer code review, and CI/CD failure diagnosis for
-            non-deterministic outputs — also improved release velocity ~40%.
-          </p>
-        </div>
-      </div>
+<div class="page">
 
-      <div class="impact-card">
-        <div>
-          <div class="metric">Mins</div>
-          <div class="metric-label">not hours, per test</div>
-        </div>
-        <div>
-          <h3>Reflect AI Kit</h3>
-          <p>
-            MCP-based agentic test automation integrating SmartBear Reflect
-            with Claude Code — engineers generate working E2E regression
-            tests from plain-English prompts. Includes an org-wide prompt
-            toolkit, per-product templates, and governance patterns for safe
-            AI-assisted test authoring.
-          </p>
-        </div>
-      </div>
+  <aside class="sidebar">
+    <img class="avatar" src="photo.jpg" alt="Sumit Saurav">
 
-      <div class="impact-card">
-        <div>
-          <div class="metric">12+</div>
-          <div class="metric-label">QA engineers using it daily</div>
-        </div>
-        <div>
-          <h3>QACypress</h3>
-          <p>
-            A Slack bot (Slack App → n8n → Cypress Cloud API) that
-            auto-compares any two CI runs and surfaces only new
-            regressions — filtering out known/unchanged failures, fully
-            automated, zero manual intervention.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
+    <h1>Sumit Saurav</h1>
+    <p class="role">QE Architect · 15+ Years<br>AI Quality Engineering</p>
+    <p class="loc">📍 Toronto, ON, Canada<br>TELUS Digital</p>
+    <p class="tagline">I build AI quality systems — not just test suites.</p>
+    <p class="skill-ticker">TypeScript · Playwright · Cypress · MCP · n8n · CI/CD</p>
+  </aside>
 
-  <section id="experience">
-    <div class="eyebrow">Career</div>
-    <h2>Experience</h2>
+  <main class="content">
 
-    <div class="timeline-item">
-      <div class="when">Jan 2022 — Present<br>4 yrs 8 mos</div>
-      <div>
-        <h3>QA Automation Lead Engineer</h3>
-        <div class="org">TELUS Digital · Toronto, ON</div>
-        <p>
-          Leading QA architecture and automation strategy for TELUS
-          Digital's Micro Frontend platform — 12+ components, 97% E2E
-          coverage, team of 6. Own the 4-tier GitHub Actions CI/CD quality
-          pipeline across dev, staging, regression, and production gates.
-        </p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="when">Oct 2016 — Dec 2021<br>5 yrs 3 mos</div>
-      <div>
-        <h3>QA Automation Lead (progressed from Test Architect)</h3>
-        <div class="org">Accenture · delivering QA for TELUS · Toronto, ON</div>
-        <p>
-          Architected test automation frameworks for TELUS's Amdocs Billing
-          & Rating platform — an enterprise telecom BSS system serving
-          millions of customers. Led QA for large-scale web and API systems
-          using Selenium and Karate, drove shift-left testing and CI
-          integration across delivery teams.
-        </p>
-      </div>
-    </div>
-
-    <div class="timeline-item">
-      <div class="when">May 2012 — Oct 2016<br>4 yrs 6 mos</div>
-      <div>
-        <h3>Associate Software Engineer</h3>
-        <div class="org">Accenture</div>
-        <p>
-          Functional, regression, and integration testing across release
-          cycles; defect management in HP QC/ALM; SQL and VBA scripting for
-          test data and reporting in an Agile/waterfall hybrid environment.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section id="building">
-    <div class="eyebrow">Building in Public</div>
-    <h2>Now Building</h2>
-    <div class="building-card">
-      <div class="status">In development</div>
-      <h3>cypress-ai-eval</h3>
+    <section class="summary">
+      <h2>My Journey</h2>
       <p>
-        Going deeper into the discipline behind the tools I've already
-        shipped: an AI evaluation pipeline built from scratch — an
-        LLM-as-judge failure classifier, a golden-dataset regression gate,
-        and a CI/CD pipeline that blocks deployment when quality drops.
-        Built one week at a time, in the open.
+        15+ years in, and the thing that's never changed is this: I genuinely love the craft — the
+        puzzle of catching what everyone else missed, the satisfaction of a framework that just
+        works. What's changed is the toolkit. I started in manual and classic automation, grew into
+        deep test-architecture ownership across a 12+ component platform at TELUS Digital, and now
+        I'm building AI systems that test, evaluate, and reason about quality at a scale manual
+        testing never could.
       </p>
-      <a href="https://github.com/sumitsauravpat/cypress-ai-eval">View on GitHub →</a>
-    </div>
-  </section>
+      <p>
+        Right now I'm pushing in two directions at once: going deeper into AI Quality Engineering —
+        LLM evaluation, agentic test generation, MCP-based tooling — while also strengthening
+        fundamentals I used to lean on others for: performance engineering, SQL, Docker, CI/CD
+        infrastructure. Real quality ownership means understanding the whole stack, not just the
+        test layer.
+      </p>
+      <p class="closer">Still learning. Still shipping. Still genuinely enjoying it.</p>
+      <ul class="personality-list">
+        <li>🔭 <strong>Currently building:</strong> deeper performance + infra skills — k6, Docker, SQL, Appium next</li>
+        <li>🌱 <strong>Always learning:</strong> every new tool gets built from scratch, line by line, before I trust it in production</li>
+        <li>💬 <strong>Ask me about:</strong> AI-augmented testing, agentic workflows, or why your load test numbers might be lying to you</li>
+        <li>⚡ <strong>Fun fact:</strong> ran the same k6 script locally, in Docker, and through BlazeMeter's cloud — just to prove the ~70ms real-network-latency gap most teams never actually measure</li>
+      </ul>
+    </section>
 
-  <section>
-    <div class="eyebrow">Toolbox</div>
-    <h2>Stack</h2>
-    <div class="stack-grid">
-      <span>JavaScript</span><span>Cypress</span><span>WebdriverIO</span><span>Python</span>
-      <span>GitHub Actions</span><span>n8n</span><span>MCP</span><span>Claude Code</span>
-      <span>Java</span><span>Karate</span><span>ReadyAPI</span><span>AWS</span><span>JIRA</span>
-      <span>LLM-as-Judge</span><span>DeepEval</span><span>RAGAS</span>
-    </div>
-  </section>
+    <section>
+      <h2>Shipped in Production</h2>
+      <ul class="shipped-list">
+        <li>
+          <strong>4-Agent AI Orchestration System</strong> — Claude Code + MCP. Agent 1 generates
+          structured test models from requirements, Agent 2 auto-generates Playwright/Cypress
+          scripts, Agent 3 performs LLM-as-judge peer review, Agent 4 triages CI failures via agent
+          trajectory analysis. Cut manual regression effort ~65%, improved release velocity ~40%.
+        </li>
+        <li>
+          <strong>Reflect AI Kit</strong> — MCP-based agentic test automation (SmartBear Reflect +
+          Claude Code). Generates working E2E tests from plain-English prompts in minutes, not
+          hours.
+        </li>
+        <li>
+          <strong>QACypress</strong> — Real-time quality observability system (n8n + Cypress Cloud
+          API + Datadog + Slack). Surfaces net-new regressions, maps failures to process deviations,
+          delivers release-readiness dashboards with zero manual triage. Used daily by 12+
+          engineers.
+        </li>
+      </ul>
+    </section>
 
-  <section id="contact">
-    <div class="eyebrow">Reach Out</div>
-    <h2>Get in Touch</h2>
-    <p>
-      Email: <a href="mailto:sumitsauravpat@gmail.com">sumitsauravpat@gmail.com</a><br>
-      GitHub: <a href="https://github.com/sumitsauravpat">github.com/sumitsauravpat</a><br>
-      LinkedIn: <a href="https://www.linkedin.com/in/sumit-saurav120">linkedin.com/in/sumit-saurav120</a>
-    </p>
-  </section>
+    <section>
+      <h2>Projects</h2>
+      <table class="data-table proj-table">
+        <thead>
+          <tr><th>Repository</th><th>Description</th><th>Stack</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="https://github.com/sumitsauravpat/ai-engineering-chatbot-qa" target="_blank" rel="noopener">ai-engineering-chatbot-qa</a></td>
+            <td>A hands-on LangChain.js chatbot for a fictional telecom provider — real tool-calling, multi-turn memory, and a dedicated AI-QA evaluation suite built with promptfoo</td>
+            <td>TypeScript</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/sumitsauravpat/supertest-api-agentictool-platform" target="_blank" rel="noopener">supertest-api-agentictool-platform</a></td>
+            <td>API automation with Supertest/Jest, a Playwright UI layer, staged CI/CD quality gates, and an agentic AI pipeline that generates test specs from a requirement — built from first principles against a real, live API</td>
+            <td>TypeScript</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/sumitsauravpat/performance-testing" target="_blank" rel="noopener">performance-testing</a></td>
+            <td>k6 load/stress/spike/soak testing framework — containerized with Docker, automated via GitHub Actions CI, validated against real cloud infrastructure through BlazeMeter</td>
+            <td>JavaScript</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/sumitsauravpat/playwright-ts-test-framework" target="_blank" rel="noopener">playwright-ts-test-framework</a></td>
+            <td>Playwright + TypeScript automation framework built from scratch — custom fixtures, full type-safe page objects</td>
+            <td>TypeScript</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/sumitsauravpat/test-forge" target="_blank" rel="noopener">test-forge</a></td>
+            <td>BDD/Gherkin + REST API test automation framework (Playwright + Cucumber), with hands-on SQL data-validation practice</td>
+            <td>TypeScript</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/sumitsauravpat/fail-forward-slack-bot" target="_blank" rel="noopener">fail-forward-slack-bot</a></td>
+            <td>A Slack bot that parses commands and surfaces CI/test-failure signal directly in Slack</td>
+            <td>TypeScript</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/sumitsauravpat/ci-regression-diff-bot" target="_blank" rel="noopener">ci-regression-diff-bot</a></td>
+            <td>Compares two CI runs, surfaces only new regressions, filters out already-known failures</td>
+            <td>JavaScript</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/sumitsauravpat/ai-test-generation-kit" target="_blank" rel="noopener">ai-test-generation-kit</a></td>
+            <td>Prompt-engineering kit generating browser regression tests from plain English, via an AI agent and a live-session test recorder (MCP-connected)</td>
+            <td>JavaScript</td>
+          </tr>
+          <tr>
+            <td><a href="https://github.com/sumitsauravpat/cypress-ai-eval" target="_blank" rel="noopener">cypress-ai-eval</a></td>
+            <td>AI evaluation pipeline built from scratch — LLM-as-judge classifier, golden-dataset regression gate</td>
+            <td>Python</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-  <footer>© 2026 Sumit Saurav</footer>
+    <section>
+      <h2>Experience</h2>
+      <div class="exp-item">
+        <div class="exp-when">Jan 2022 — Present<br><span>4 yrs 8 mos</span></div>
+        <div class="exp-body">
+          <strong>QA Automation Lead Engineer</strong>
+          <span class="org">TELUS Digital · Toronto, ON</span>
+          <ul>
+            <li>Owned quality end-to-end across a 12+ component distributed microservices platform — designed and built the Playwright/TypeScript automation framework from scratch (POM architecture, shared utility libraries, fixture-driven data patterns, BDD-aligned tagging, environment-agnostic configuration); achieved 97% E2E coverage across frontend, integration, and regression test layers.</li>
+            <li>Built and shipped a 4-agent AI testing system (Claude Code + MCP) for automated test generation, LLM-as-judge peer review, and CI failure triage via agent trajectory analysis — ~65% reduction in manual regression effort, ~40% improvement in release velocity.</li>
+            <li>Designed REST API and integration test suites across distributed microservice layers using Postman, PactumJS, and Playwright API testing (request context); contract testing with Pact; SQL backend data verification; established multi-tier CI/CD quality gates in GitHub Actions and Jenkins with staged rollout validation.</li>
+            <li>Mentored and upskilled QA engineers across multiple organisations on Playwright patterns, AI tooling adoption, and quality ownership culture; authored best-practice guides and process documentation.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-when">Oct 2016 — Dec 2021<br><span>5 yrs 3 mos</span></div>
+        <div class="exp-body">
+          <strong>QA Automation Lead</strong> <span class="muted">(progressed from Test Architect)</span>
+          <span class="org">Accenture · delivering QA for TELUS · Toronto, ON</span>
+          <ul>
+            <li>Built Selenium/Java and Karate BDD automation frameworks from scratch for a large-scale enterprise BSS/EPM financial platform (billing, rating engine, invoice generation, payment workflows) — validated end-to-end business process integrity with full SQL backend verification using JUnit/TestNG.</li>
+            <li>Designed REST and SOAP API test suites across financial integration layers; built JMeter performance testing infrastructure with threshold-based CI quality gates; coordinated onshore/offshore QA teams of 8+ engineers — defect triage, release readiness, stakeholder reporting via HP ALM/QC.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-when">May 2012 — Oct 2016<br><span>4 yrs 6 mos</span></div>
+        <div class="exp-body">
+          <strong>Associate Software Engineer / Test Architect</strong>
+          <span class="org">Accenture</span>
+          <ul>
+            <li>Functional, regression, integration, and performance testing across enterprise financial and telecom applications; validated complex distributed business workflows using HP QC/ALM, Selenium, SQL; built automation scripts across Agile and waterfall SDLC environments.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <div class="skills-box">
+        <ul>
+          <li><strong>Automation:</strong> Playwright, Cypress, Selenium, WebdriverIO, Node.js, BDD (Cucumber, Karate), Page Object Model, fixture-driven data patterns</li>
+          <li><strong>Programming:</strong> TypeScript, JavaScript, Python, Java, SQL, Bash</li>
+          <li><strong>AI Engineering:</strong> LangChain.js, LLM-as-Judge, DeepEval, RAGAS, MCP, Claude Code, GitHub Copilot, Prompt Engineering</li>
+          <li><strong>API & Integration Testing:</strong> REST API testing, Playwright API testing (request context), Postman, PactumJS, REST Assured, ReadyAPI, Contract testing (Pact)</li>
+          <li><strong>Performance Testing:</strong> k6, JMeter, Docker, BlazeMeter, load/stress testing</li>
+          <li><strong>CI/CD & DevOps:</strong> GitHub Actions, Jenkins, Docker, AWS, Git, n8n</li>
+          <li><strong>Quality Observability:</strong> Datadog, Cypress Cloud API, Slack API</li>
+          <li><strong>Test Management &amp; Agile:</strong> JIRA, Confluence, Xray, Zephyr, Zephyr Scale, Agile/Scrum</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education &amp; Certifications</h2>
+      <div class="exp-item">
+        <div class="exp-when">2008 — 2012</div>
+        <div class="exp-body">
+          <strong>B.Tech, Electronics and Electrical Engineering</strong>
+          <span class="org">KIIT University, India</span>
+        </div>
+      </div>
+      <div class="exp-item">
+        <div class="exp-when">Completed</div>
+        <div class="exp-body">
+          <strong>ISTQB Advanced Level — Test Automation Engineer</strong>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
 </div>
 
 </body>
