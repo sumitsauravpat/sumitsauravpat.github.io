@@ -43,7 +43,7 @@ a { color: var(--accent); }
 /* ---------- Sidebar ---------- */
 .sidebar { width: var(--sidebar-w); flex-shrink: 0; position: sticky; top: 48px; }
 .avatar {
-  width: 100%; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; object-position: center 12%;
+  width: 100%; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; object-position: center center;
   background: var(--accent-soft); border: 1px solid var(--line); display: block; margin-bottom: 26px;
 }
 
