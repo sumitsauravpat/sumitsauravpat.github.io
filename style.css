@@ -43,7 +43,7 @@ a { color: var(--accent); }
 /* ---------- Sidebar ---------- */
 .sidebar { width: var(--sidebar-w); flex-shrink: 0; position: sticky; top: 48px; }
 .avatar {
-  width: 100%; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; object-position: center 65%;
+  width: 100%; aspect-ratio: 1 / 1; border-radius: 50%; object-fit: cover; object-position: center 30%;
   background: var(--accent-soft); border: 1px solid var(--line); display: block; margin-bottom: 26px;
 }
 
@@ -121,8 +121,9 @@ section h2 {
 @media (max-width: 760px) {
   .topbar { flex-direction: column; align-items: flex-start; gap: 14px; }
   .top-links { flex-wrap: wrap; gap: 16px; }
-  .page { flex-direction: column; gap: 36px; }
+  .page { flex-direction: column; gap: 36px; align-items: stretch; }
   .sidebar { width: 100%; position: static; }
+  .content { width: 100%; }
   .avatar { width: 130px; }
   .exp-item { grid-template-columns: 1fr; }
   .data-table { display: block; overflow-x: auto; }
